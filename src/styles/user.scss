@@ -1,0 +1,27 @@
+.user__info {
+
+  p {
+    span {
+      font-weight: 700;
+    }
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    & div {
+      padding-top: 15px;
+      width: 100px;
+      cursor: pointer;
+      text-align: center;
+      height: 35px;
+      margin-top: 8px;
+    }
+  }
+  .delete {
+    background-color: red;
+    margin-right: 5px;
+  }
+  .edit {
+    background-color: green;
+  }
+}

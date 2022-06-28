@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & * {
+    margin-bottom: 8px;
+  }
+
+  .fname,.lname, .job, .date{
+     width: 200px;
+      height: 35px;
+  }
+  textarea{
+     width: 200px;
+     height: 100px;
+  }
+  .ckeckbox{
+     width: 20px;
+     height: 20px;
+  }
+select{
+     width: 200px;
+      height: 35px;
+}
+
+}
